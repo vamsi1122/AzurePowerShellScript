@@ -1,4 +1,4 @@
-# AzurePowerShellScript
+# AzurePowerShellScript To Find Admins in AzureAd Tenant
 We will set couple variables to print all the Admins in AzureAD using PowerShell.
 
 In the first variable($Roles). I will be returning back all the roles with admin rights.
