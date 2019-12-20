@@ -1,0 +1,12 @@
+$UserRole = ForEach ($role in $roles) {
+  Get-AzureADDirectoryRoleMember -ObjectId "$($role.ObjectId)" |
+  ForEach-Object {
+      [PSCustomObject]@{
+            User = $_.DisplayName
+            UserPrincipalName = $_.UserPrincipalName
+            Administrator = $role.DisplayName.
+      }
+  }
+
+
+}
