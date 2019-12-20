@@ -1,0 +1,1 @@
+$roles = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -like "*Administrator"}
